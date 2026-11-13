@@ -1,0 +1,611 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/index.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/about.html",
+      "destination": "/about",
+      "permanent": true
+    },
+    {
+      "source": "/basement-plumbing.html",
+      "destination": "/basement-plumbing",
+      "permanent": true
+    },
+    {
+      "source": "/bathtub-repair.html",
+      "destination": "/bathtub-repair",
+      "permanent": true
+    },
+    {
+      "source": "/blog.html",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/common-plumbing-problems-in-downtown-belleville-older-homes.html",
+      "destination": "/blog/common-plumbing-problems-in-downtown-belleville-older-homes",
+      "permanent": true
+    },
+    {
+      "source": "/blog/emergency-plumbing-services-in-belleville-what-to-do-first.html",
+      "destination": "/blog/emergency-plumbing-services-in-belleville-what-to-do-first",
+      "permanent": true
+    },
+    {
+      "source": "/blog/how-to-fix-a-running-toilet-flapper.html",
+      "destination": "/blog/how-to-fix-a-running-toilet-flapper",
+      "permanent": true
+    },
+    {
+      "source": "/blog/how-to-prevent-frozen-pipes-in-belleville-winter.html",
+      "destination": "/blog/how-to-prevent-frozen-pipes-in-belleville-winter",
+      "permanent": true
+    },
+    {
+      "source": "/blog/how-to-reset-a-water-heater-pilot-light.html",
+      "destination": "/blog/how-to-reset-a-water-heater-pilot-light",
+      "permanent": true
+    },
+    {
+      "source": "/blog/how-to-unclog-a-kitchen-sink-drain-safely.html",
+      "destination": "/blog/how-to-unclog-a-kitchen-sink-drain-safely",
+      "permanent": true
+    },
+    {
+      "source": "/blog/plumbing-repair-cost-in-belleville-what-to-expect.html",
+      "destination": "/blog/plumbing-repair-cost-in-belleville-what-to-expect",
+      "permanent": true
+    },
+    {
+      "source": "/blog/sewer-line-repair-vs-replacement-cost-in-belleville.html",
+      "destination": "/blog/sewer-line-repair-vs-replacement-cost-in-belleville",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tankless-vs-tank-water-heater-cost-in-belleville.html",
+      "destination": "/blog/tankless-vs-tank-water-heater-cost-in-belleville",
+      "permanent": true
+    },
+    {
+      "source": "/blog/what-belleville-homeowners-should-know-before-hiring-a-plumber.html",
+      "destination": "/blog/what-belleville-homeowners-should-know-before-hiring-a-plumber",
+      "permanent": true
+    },
+    {
+      "source": "/blog/when-to-schedule-water-heater-maintenance-in-belleville.html",
+      "destination": "/blog/when-to-schedule-water-heater-maintenance-in-belleville",
+      "permanent": true
+    },
+    {
+      "source": "/blog/why-does-my-toilet-keep-running-after-flushing.html",
+      "destination": "/blog/why-does-my-toilet-keep-running-after-flushing",
+      "permanent": true
+    },
+    {
+      "source": "/blog/why-is-my-drain-gurgling-and-how-to-fix-it.html",
+      "destination": "/blog/why-is-my-drain-gurgling-and-how-to-fix-it",
+      "permanent": true
+    },
+    {
+      "source": "/blog/why-is-my-faucet-leaking-at-the-base.html",
+      "destination": "/blog/why-is-my-faucet-leaking-at-the-base",
+      "permanent": true
+    },
+    {
+      "source": "/blog/why-is-my-water-heater-not-heating-water.html",
+      "destination": "/blog/why-is-my-water-heater-not-heating-water",
+      "permanent": true
+    },
+    {
+      "source": "/burst-frozen-pipe-repair.html",
+      "destination": "/burst-frozen-pipe-repair",
+      "permanent": true
+    },
+    {
+      "source": "/commercial-plumbing.html",
+      "destination": "/commercial-plumbing",
+      "permanent": true
+    },
+    {
+      "source": "/contact.html",
+      "destination": "/contact",
+      "permanent": true
+    },
+    {
+      "source": "/drain-cleaning.html",
+      "destination": "/drain-cleaning",
+      "permanent": true
+    },
+    {
+      "source": "/emergency-plumbing-services.html",
+      "destination": "/emergency-plumbing-services",
+      "permanent": true
+    },
+    {
+      "source": "/faucet-repair.html",
+      "destination": "/faucet-repair",
+      "permanent": true
+    },
+    {
+      "source": "/garbage-disposal-repair.html",
+      "destination": "/garbage-disposal-repair",
+      "permanent": true
+    },
+    {
+      "source": "/hydro-jetting.html",
+      "destination": "/hydro-jetting",
+      "permanent": true
+    },
+    {
+      "source": "/leak-detection.html",
+      "destination": "/leak-detection",
+      "permanent": true
+    },
+    {
+      "source": "/leak-repair.html",
+      "destination": "/leak-repair",
+      "permanent": true
+    },
+    {
+      "source": "/locations.html",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/main-water-line-replacement.html",
+      "destination": "/main-water-line-replacement",
+      "permanent": true
+    },
+    {
+      "source": "/plumbing-hexenbuckel-historic-district.html",
+      "destination": "/plumbing-hexenbuckel-historic-district",
+      "permanent": true
+    },
+    {
+      "source": "/plumbing-old-belleville-historic-district.html",
+      "destination": "/plumbing-old-belleville-historic-district",
+      "permanent": true
+    },
+    {
+      "source": "/plumbing-repairs.html",
+      "destination": "/plumbing-repairs",
+      "permanent": true
+    },
+    {
+      "source": "/plumbing-reunion.html",
+      "destination": "/plumbing-reunion",
+      "permanent": true
+    },
+    {
+      "source": "/plumbing-the-orchards.html",
+      "destination": "/plumbing-the-orchards",
+      "permanent": true
+    },
+    {
+      "source": "/plumbing-west-belleville-historic-district.html",
+      "destination": "/plumbing-west-belleville-historic-district",
+      "permanent": true
+    },
+    {
+      "source": "/privacy-policy.html",
+      "destination": "/privacy-policy",
+      "permanent": true
+    },
+    {
+      "source": "/repiping.html",
+      "destination": "/repiping",
+      "permanent": true
+    },
+    {
+      "source": "/residential-plumbing.html",
+      "destination": "/residential-plumbing",
+      "permanent": true
+    },
+    {
+      "source": "/services.html",
+      "destination": "/services",
+      "permanent": true
+    },
+    {
+      "source": "/sewer-backup.html",
+      "destination": "/sewer-backup",
+      "permanent": true
+    },
+    {
+      "source": "/sewer-camera-inspection.html",
+      "destination": "/sewer-camera-inspection",
+      "permanent": true
+    },
+    {
+      "source": "/sewer-line-repair.html",
+      "destination": "/sewer-line-repair",
+      "permanent": true
+    },
+    {
+      "source": "/sewer-line-replacement.html",
+      "destination": "/sewer-line-replacement",
+      "permanent": true
+    },
+    {
+      "source": "/shower-repair.html",
+      "destination": "/shower-repair",
+      "permanent": true
+    },
+    {
+      "source": "/sink-repair.html",
+      "destination": "/sink-repair",
+      "permanent": true
+    },
+    {
+      "source": "/slab-leak.html",
+      "destination": "/slab-leak",
+      "permanent": true
+    },
+    {
+      "source": "/sump-pump.html",
+      "destination": "/sump-pump",
+      "permanent": true
+    },
+    {
+      "source": "/tankless-water-heater-services.html",
+      "destination": "/tankless-water-heater-services",
+      "permanent": true
+    },
+    {
+      "source": "/terms-of-service.html",
+      "destination": "/terms-of-service",
+      "permanent": true
+    },
+    {
+      "source": "/toilet-repair.html",
+      "destination": "/toilet-repair",
+      "permanent": true
+    },
+    {
+      "source": "/trenchless-sewer-repair.html",
+      "destination": "/trenchless-sewer-repair",
+      "permanent": true
+    },
+    {
+      "source": "/water-filtration.html",
+      "destination": "/water-filtration",
+      "permanent": true
+    },
+    {
+      "source": "/water-heater-installation.html",
+      "destination": "/water-heater-installation",
+      "permanent": true
+    },
+    {
+      "source": "/water-heater-repair.html",
+      "destination": "/water-heater-repair",
+      "permanent": true
+    },
+    {
+      "source": "/water-softener.html",
+      "destination": "/water-softener",
+      "permanent": true
+    },
+    {
+      "source": "/bathtub-installation",
+      "destination": "/bathtub-repair",
+      "permanent": true
+    },
+    {
+      "source": "/bathtub-installation.html",
+      "destination": "/bathtub-repair",
+      "permanent": true
+    },
+    {
+      "source": "/faucet-installation",
+      "destination": "/faucet-repair",
+      "permanent": true
+    },
+    {
+      "source": "/faucet-installation.html",
+      "destination": "/faucet-repair",
+      "permanent": true
+    },
+    {
+      "source": "/garbage-disposal-installation",
+      "destination": "/garbage-disposal-repair",
+      "permanent": true
+    },
+    {
+      "source": "/garbage-disposal-installation.html",
+      "destination": "/garbage-disposal-repair",
+      "permanent": true
+    },
+    {
+      "source": "/pipe-repair",
+      "destination": "/leak-repair",
+      "permanent": true
+    },
+    {
+      "source": "/pipe-repair.html",
+      "destination": "/leak-repair",
+      "permanent": true
+    },
+    {
+      "source": "/pipe-replacement",
+      "destination": "/repiping",
+      "permanent": true
+    },
+    {
+      "source": "/pipe-replacement.html",
+      "destination": "/repiping",
+      "permanent": true
+    },
+    {
+      "source": "/plumbing-belleville-east",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/plumbing-belleville-east.html",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/plumbing-belleville-heights",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/plumbing-belleville-heights.html",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/plumbing-belleville-west",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/plumbing-belleville-west.html",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/plumbing-downtown-belleville",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/plumbing-downtown-belleville.html",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/plumbing-east-end",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/plumbing-east-end.html",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/plumbing-fairview-heights",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/plumbing-fairview-heights.html",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/plumbing-freeburg",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/plumbing-freeburg.html",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/plumbing-lebanon",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/plumbing-lebanon.html",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/plumbing-marissa",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/plumbing-marissa.html",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/plumbing-mascoutah",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/plumbing-mascoutah.html",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/plumbing-millstadt",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/plumbing-millstadt.html",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/plumbing-new-athens",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/plumbing-new-athens.html",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/plumbing-north-end",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/plumbing-north-end.html",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/plumbing-ofallon",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/plumbing-ofallon.html",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/plumbing-scott-air-force-base",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/plumbing-scott-air-force-base.html",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/plumbing-shiloh",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/plumbing-shiloh.html",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/plumbing-smithton",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/plumbing-smithton.html",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/plumbing-south-end",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/plumbing-south-end.html",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/plumbing-swansea",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/plumbing-swansea.html",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/plumbing-west-end",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/plumbing-west-end.html",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/sewer-line-cleaning",
+      "destination": "/drain-cleaning",
+      "permanent": true
+    },
+    {
+      "source": "/sewer-line-cleaning.html",
+      "destination": "/drain-cleaning",
+      "permanent": true
+    },
+    {
+      "source": "/shower-installation",
+      "destination": "/shower-repair",
+      "permanent": true
+    },
+    {
+      "source": "/shower-installation.html",
+      "destination": "/shower-repair",
+      "permanent": true
+    },
+    {
+      "source": "/sink-installation",
+      "destination": "/sink-repair",
+      "permanent": true
+    },
+    {
+      "source": "/sink-installation.html",
+      "destination": "/sink-repair",
+      "permanent": true
+    },
+    {
+      "source": "/sump-pump-installation",
+      "destination": "/sump-pump",
+      "permanent": true
+    },
+    {
+      "source": "/sump-pump-installation.html",
+      "destination": "/sump-pump",
+      "permanent": true
+    },
+    {
+      "source": "/sump-pump-repair",
+      "destination": "/sump-pump",
+      "permanent": true
+    },
+    {
+      "source": "/sump-pump-repair.html",
+      "destination": "/sump-pump",
+      "permanent": true
+    },
+    {
+      "source": "/toilet-installation",
+      "destination": "/toilet-repair",
+      "permanent": true
+    },
+    {
+      "source": "/toilet-installation.html",
+      "destination": "/toilet-repair",
+      "permanent": true
+    },
+    {
+      "source": "/sitemap.html",
+      "destination": "/sitemap",
+      "permanent": true
+    }
+  ]
+}

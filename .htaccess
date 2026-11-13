@@ -1,0 +1,72 @@
+# Clean URLs for Apache / LiteSpeed hosts (SiteGround, cPanel, Hostinger,
+# GoDaddy, Namecheap…). Netlify, Vercel and Cloudflare Pages ignore this file
+# and use netlify.toml / vercel.json instead. Safe to leave in place anywhere.
+
+Options -MultiViews
+ErrorDocument 404 /404.html
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # /<page> -> <page>.html (internal, no redirect)
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_FILENAME}\.html -f
+  RewriteRule ^(.+?)/?$ $1.html [L]
+
+  # Redirects for removed template pages (closest kept page).
+  RewriteRule ^bathtub-installation(\.html)?$ /bathtub-repair [R=301,L]
+  RewriteRule ^faucet-installation(\.html)?$ /faucet-repair [R=301,L]
+  RewriteRule ^garbage-disposal-installation(\.html)?$ /garbage-disposal-repair [R=301,L]
+  RewriteRule ^pipe-repair(\.html)?$ /leak-repair [R=301,L]
+  RewriteRule ^pipe-replacement(\.html)?$ /repiping [R=301,L]
+  RewriteRule ^plumbing-belleville-east(\.html)?$ /locations [R=301,L]
+  RewriteRule ^plumbing-belleville-heights(\.html)?$ /locations [R=301,L]
+  RewriteRule ^plumbing-belleville-west(\.html)?$ /locations [R=301,L]
+  RewriteRule ^plumbing-downtown-belleville(\.html)?$ /locations [R=301,L]
+  RewriteRule ^plumbing-east-end(\.html)?$ /locations [R=301,L]
+  RewriteRule ^plumbing-fairview-heights(\.html)?$ /locations [R=301,L]
+  RewriteRule ^plumbing-freeburg(\.html)?$ /locations [R=301,L]
+  RewriteRule ^plumbing-lebanon(\.html)?$ /locations [R=301,L]
+  RewriteRule ^plumbing-marissa(\.html)?$ /locations [R=301,L]
+  RewriteRule ^plumbing-mascoutah(\.html)?$ /locations [R=301,L]
+  RewriteRule ^plumbing-millstadt(\.html)?$ /locations [R=301,L]
+  RewriteRule ^plumbing-new-athens(\.html)?$ /locations [R=301,L]
+  RewriteRule ^plumbing-north-end(\.html)?$ /locations [R=301,L]
+  RewriteRule ^plumbing-ofallon(\.html)?$ /locations [R=301,L]
+  RewriteRule ^plumbing-scott-air-force-base(\.html)?$ /locations [R=301,L]
+  RewriteRule ^plumbing-shiloh(\.html)?$ /locations [R=301,L]
+  RewriteRule ^plumbing-smithton(\.html)?$ /locations [R=301,L]
+  RewriteRule ^plumbing-south-end(\.html)?$ /locations [R=301,L]
+  RewriteRule ^plumbing-swansea(\.html)?$ /locations [R=301,L]
+  RewriteRule ^plumbing-west-end(\.html)?$ /locations [R=301,L]
+  RewriteRule ^sewer-line-cleaning(\.html)?$ /drain-cleaning [R=301,L]
+  RewriteRule ^shower-installation(\.html)?$ /shower-repair [R=301,L]
+  RewriteRule ^sink-installation(\.html)?$ /sink-repair [R=301,L]
+  RewriteRule ^sump-pump-installation(\.html)?$ /sump-pump [R=301,L]
+  RewriteRule ^sump-pump-repair(\.html)?$ /sump-pump [R=301,L]
+  RewriteRule ^toilet-installation(\.html)?$ /toilet-repair [R=301,L]
+
+  # Canonical: a direct .html hit 301s to the clean URL.
+  RewriteCond %{THE_REQUEST} \s/+index\.html[\s?] [NC]
+  RewriteRule ^ / [R=301,L]
+  RewriteCond %{THE_REQUEST} \s/+(.+?)/index\.html[\s?] [NC]
+  RewriteRule ^ /%1/ [R=301,L]
+  RewriteCond %{THE_REQUEST} \s/+(.+?)\.html[\s?] [NC]
+  RewriteRule ^ /%1 [R=301,L]
+</IfModule>
+
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css application/javascript application/json image/svg+xml application/xml
+</IfModule>
+
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType text/css "access plus 1 month"
+  ExpiresByType application/javascript "access plus 1 month"
+  ExpiresByType image/svg+xml "access plus 6 months"
+  ExpiresByType image/png "access plus 6 months"
+  ExpiresByType image/jpeg "access plus 6 months"
+  ExpiresByType image/webp "access plus 6 months"
+</IfModule>
